@@ -1,0 +1,101 @@
+---
+layout: layouts/base
+eleventyExcludeFromCollections: true
+title: Recepty
+---
+
+<style>
+    body, .list-group-item {
+      background-color: #fcf4f4;
+    }
+</style>
+    
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-xxl-6 p-3 ">
+
+            <h1 class="p-3">Recepty</h1>
+
+            <ul class="list-group list-group-flush">
+              
+                <li class="list-group-item">
+                    <h3>Brownies</h3>
+                    <ul class="list-group-flush">
+                        {%- for brownies in collections.brownies -%}
+                        <li class="list-group-item">
+                            <a class="text-decoration-none h5 text-body" href="{{ brownies.url }}">
+                                <p> {{brownies.data.title}} </p>
+                            </a>
+                        </li>
+                        {%- endfor -%}
+                    </ul>
+
+                <h3>Cupcakes</h3>
+                <li class="list-group-item">
+                    <ul class="list-group-flush">
+                        {%- for cupcakes in collections.cupcakes -%}
+                        <li class="list-group-item">
+                            <a class="text-decoration-none h5 text-body" href="{{ cupcakes.url }}">
+                                <p> {{cupcakes.data.title}} </p>
+                            </a>
+                        </li>
+                        {%- endfor -%}
+                    </ul>
+                </li>
+
+                <h3>Dorty</h3>
+                <li class="list-group-item">
+                    <ul class="list-group-flush">
+                        {%- for dort in collections.dort -%}
+                        <li class="list-group-item">
+                            <a class="text-decoration-none h5 text-body" href="{{ dort.url }}">
+                                <p> {{dort.data.title}} </p>
+                            </a>
+                        </li>
+                        {%- endfor -%}
+                    </ul>
+                </li>
+
+                <h3>Rolády</h3>
+                <li class="list-group-item">
+                    <ul class="list-group-flush">
+                        {%- for rolada in collections.rolady -%}
+                            <li class="list-group-item">
+                                    <a class="text-decoration-none h5 text-body" href="{{ rolada.url }}">
+                                        <p> {{ rolada.data.title }} </p>
+                                    </a>       
+                            </li>
+                        {%- endfor -%}
+                    </ul>
+                </li>
+
+                <h3>Cheesecaky</h3>
+                <li class="list-group-item">
+                    <ul class="list-group-flush">
+                        {%- for cheesecake in collections.cheesecake -%}
+                            <li class="list-group-item">
+                                    <a class="text-decoration-none h5 text-body" href="{{ cheesecake.url }}">
+                                        <p> {{ cheesecake.data.title }} </p>
+                                    </a>       
+                            </li>
+                        {%- endfor -%}
+                    </ul>
+                </li>
+
+                <h3>Sladke</h3>
+                <li class="list-group-item">
+                    <ul class="list-group-flush">
+                        {%- for sladke in collections.sladke -%}
+                        <li class="list-group-item">
+                            <a class="text-decoration-none h5 text-body" href="{{ sladke.url }}">
+                                <p> {{sladke.data.title}} </p>
+                            </a>
+                        </li>
+                        {%- endfor -%}
+                    </ul>
+                </li>
+    
+            </ul>
+        </div>
+    </div>
+</div>
