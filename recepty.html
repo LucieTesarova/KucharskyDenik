@@ -9,7 +9,7 @@ title: Recepty
       background-color: #fcf4f4;
     }
 </style>
-    
+
 <div class="container-fluid">
     <div class="row justify-content-center">
         <div class="col-lg-8 col-xxl-6 p-3 ">
@@ -17,7 +17,7 @@ title: Recepty
             <h1 class="p-3">Recepty</h1>
 
             <ul class="list-group list-group-flush">
-              
+
                 <li class="list-group-item">
                     <h3>Brownies</h3>
                     <ul class="list-group-flush">
@@ -30,7 +30,7 @@ title: Recepty
                         {%- endfor -%}
                     </ul>
 
-                <h3>Cupcakes</h3>
+                    <h3>Cupcakes</h3>
                 <li class="list-group-item">
                     <ul class="list-group-flush">
                         {%- for cupcakes in collections.cupcakes -%}
@@ -60,11 +60,13 @@ title: Recepty
                 <li class="list-group-item">
                     <ul class="list-group-flush">
                         {%- for rolada in collections.rolady -%}
-                            <li class="list-group-item">
-                                    <a class="text-decoration-none h5 text-body" href="{{ rolada.url }}">
-                                        <p> {{ rolada.data.title }} </p>
+                        <li class="list-group-item">
+                            <a class="text-decoration-none h5 text-body" href="{{ rolada.url }}">
+                                <p> {{ rolada.data.title }} </p>
+                            </a>
                                     </a>       
-                            </li>
+                            </a>
+                        </li>
                         {%- endfor -%}
                     </ul>
                 </li>
@@ -73,11 +75,13 @@ title: Recepty
                 <li class="list-group-item">
                     <ul class="list-group-flush">
                         {%- for cheesecake in collections.cheesecake -%}
-                            <li class="list-group-item">
-                                    <a class="text-decoration-none h5 text-body" href="{{ cheesecake.url }}">
-                                        <p> {{ cheesecake.data.title }} </p>
+                        <li class="list-group-item">
+                            <a class="text-decoration-none h5 text-body" href="{{ cheesecake.url }}">
+                                <p> {{ cheesecake.data.title }} </p>
+                            </a>
                                     </a>       
-                            </li>
+                            </a>
+                        </li>
                         {%- endfor -%}
                     </ul>
                 </li>
@@ -94,7 +98,7 @@ title: Recepty
                         {%- endfor -%}
                     </ul>
                 </li>
-    
+
             </ul>
         </div>
     </div>
