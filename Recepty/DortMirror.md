@@ -1,15 +1,15 @@
 ---
 layout: layouts/recept
-title: Cupcake borůvkový
-obrazek: /Cupcake/Cupcake-boruvky-1.jpg
-obrazek2: /Cupcake/Cupcake-boruvky-2.jpg
-tags: 
-  - cupcakes
+title: Dort Mirror
+obrazek: /DortMirror/DortMirror-1.jpg
+obrazek2: /DortMirror/DortMirror-2.jpg
+tags:
+  - dort
   - sladke
-narocnost: snadné
+narocnost: obtížné
 hodnoceni: 5
-priprava: 30
-poznamky: Vytáhnout o 5 min dřív.
+priprava: 180
+poznamky: Zkontrolovat teplotu polevy.
 zdroj: wwww.aa.cz
 ---
 

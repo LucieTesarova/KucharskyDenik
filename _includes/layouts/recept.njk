@@ -37,57 +37,38 @@ layout: layouts/base
                 <div class="d-flex flex-row justify-content-between pt-3 m-0">
                     <div class="d-flex flex-column ms-3">
                         <div class="d-flex">
-                            <p class="me-3 text-uppercase">Narocnost:</p>
-                            <p class="text-uppercase">snadne</p>
+                            <p class="me-3 text-uppercase">Náročnost:</p>
+                            <p class="text-uppercase">{{ narocnost }}</p>
                         </div>
 
                         <div class="d-flex">
-                            <p class="text-uppercase">Hodnoceni:</p>
+                            <p class="text-uppercase">Hodnocení:</p>
                             <ul class="fa-ul list-group list-group-horizontal ms-3">
-                                <li><i class="fa-solid fa-star p-1"></i></li>
-                                <li><i class="fa-solid fa-star p-1"></i></li>
-                                <li><i class="fa-solid fa-star p-1"></i></li>
-                                <li><i class="fa-solid fa-star p-1"></i></li>
+                                {% for i in range(0, hodnoceni) -%}
+                                    <li>
+                                        <i class="fa-solid fa-star p-1"></i>
+                                    </li>
+                                {%- endfor %}
                             </ul>
                         </div>
                     </div>
 
                     <div class=" align-self-center">
-                        <i class="ms-2 fa-regular fa-clock fa-spin fa-lg "></i>
-                        <p class="me-3 text-uppercase">5 min</p>
+                        <i class="ms-3 fa-regular fa-clock fa-spin fa-lg "></i>
+                        <p class="me-3 text-uppercase">{{ priprava }} min</p>
                     </div>
                 </div>
             </div>
 
             <div class="mt-5">
-                <h2 class="display-5">Ingredience</h2>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">mleko</li>
-                    <li class="list-group-item">2ks vejce</li>
-                    <li class="list-group-item">500g mouka</li>
-                    <li class="list-group-item">tresne</li>
-                    <li class="list-group-item">sul</li>
-                </ul>
+                {{ content | safe }}
             </div>
 
-            <div class="mt-5">
-                <h2 class="display-5">Postup</h2>
-                <ol class="list-group list-group-flush">
-                    <li class="list-group-item">
-                        Prloremmedehrat troubu</li>
-                    <li class="list-group-item">Smichat suroviny</li>
-                    <li class="list-group-item">Dat trouby</li>
-                    <li class="list-group-item">Nechat vychlladnout</li>
-                    <li class="list-group-item">Dat trouby</li>
-                    <li class="list-group-item">Nechat vychlladnout</li>
-                </ol>
-            </div>
-
-            <h3 class="display-6 mt-5">Poznamky</h3>
-            <p>poynammkzkkkz</p>
+            <h3 class="display-6 mt-5">Poznámky</h3>
+            <p>{{ poznamky }}</p>
 
             <h3 class="display-6 mt-5">Zdroj</h3>
-            <p>vesela kuchakra.cz</p>
+            <p>{{ zdroj }}</p>
 
         </div>
     </div>

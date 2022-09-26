@@ -1,15 +1,15 @@
 ---
 layout: layouts/recept
-title: Cupcake borůvkový
-obrazek: /Cupcake/Cupcake-boruvky-1.jpg
-obrazek2: /Cupcake/Cupcake-boruvky-2.jpg
-tags: 
-  - cupcakes
+title: Schwarzvaldský dort
+obrazek: /SchwarzvaldskyDort/SchwarzvaldksyDort-1.jpg
+obrazek2: /SchwarzvaldskyDort/SchwarzvaldksyDort-2.jpg
+tags:
+  - dort
   - sladke
-narocnost: snadné
+narocnost: obtížné
 hodnoceni: 5
-priprava: 30
-poznamky: Vytáhnout o 5 min dřív.
+priprava: 150
+poznamky: Třešně nenechávat tak dlouho v alkoholu.
 zdroj: wwww.aa.cz
 ---
 

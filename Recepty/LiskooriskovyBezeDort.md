@@ -1,15 +1,15 @@
 ---
 layout: layouts/recept
-title: Cupcake borůvkový
-obrazek: /Cupcake/Cupcake-boruvky-1.jpg
-obrazek2: /Cupcake/Cupcake-boruvky-2.jpg
-tags: 
-  - cupcakes
+title: Lískooříškový bezé dort
+obrazek: /LiskooriskovyBezeDort/LiskooriskovyBezeDort-1.jpg
+obrazek2: /LiskooriskovyBezeDort/LiskooriskovyBezeDort-2.jpg
+tags:
+  - dort
   - sladke
-narocnost: snadné
-hodnoceni: 5
-priprava: 30
-poznamky: Vytáhnout o 5 min dřív.
+narocnost: střední
+hodnoceni: 4
+priprava: 50
+poznamky:
 zdroj: wwww.aa.cz
 ---
 

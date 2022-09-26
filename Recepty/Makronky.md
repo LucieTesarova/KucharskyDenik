@@ -1,15 +1,15 @@
 ---
 layout: layouts/recept
-title: Cupcake borůvkový
-obrazek: /Cupcake/Cupcake-boruvky-1.jpg
-obrazek2: /Cupcake/Cupcake-boruvky-2.jpg
-tags: 
-  - cupcakes
+title: Makronky
+obrazek: /Makronky/Makronky-1.jpg
+obrazek2: /Makronky/Makronky-2.jpg
+tags:
+  - mini
   - sladke
-narocnost: snadné
-hodnoceni: 5
-priprava: 30
-poznamky: Vytáhnout o 5 min dřív.
+narocnost: obtížné
+hodnoceni: 4
+priprava: 150
+poznamky: Pomůže načrtnout si na pečící papír kruhy.
 zdroj: wwww.aa.cz
 ---
 

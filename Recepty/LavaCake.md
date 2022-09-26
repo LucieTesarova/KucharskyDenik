@@ -1,15 +1,15 @@
 ---
 layout: layouts/recept
-title: Cupcake borůvkový
-obrazek: /Cupcake/Cupcake-boruvky-1.jpg
-obrazek2: /Cupcake/Cupcake-boruvky-2.jpg
-tags: 
-  - cupcakes
+title: Lava Cake
+obrazek: /LavaCake/LavaCake-1.jpg
+obrazek2: /LavaCake/LavaCake-2.jpg
+tags:
+  - kolac
   - sladke
 narocnost: snadné
-hodnoceni: 5
-priprava: 30
-poznamky: Vytáhnout o 5 min dřív.
+hodnoceni: 3
+priprava: 45
+poznamky: Vytáhnout dříve.
 zdroj: wwww.aa.cz
 ---
 
